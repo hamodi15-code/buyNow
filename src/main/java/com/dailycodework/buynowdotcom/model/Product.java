@@ -34,11 +34,12 @@ public class Product {
     private List<Image> images;
 
 
-    public Product(String name, String brand, BigDecimal price, int inventory, String description) {
+    public Product(String name, String brand, BigDecimal price, int inventory, String description,Category category) {
         this.name = name;
         this.brand = brand;
         this.price = price;
         this.inventory = inventory;
         this.description = description;
+        this.category = category;
     }
 }
